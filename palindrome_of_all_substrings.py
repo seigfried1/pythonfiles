@@ -31,7 +31,7 @@ def perm_and_c(N):
 
 
 
-ru = 'rahula'
+
 ls = []
 ans = []
 def checker(ru):
