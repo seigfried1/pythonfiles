@@ -14,6 +14,8 @@ def factor(num):
 	return factors
 
 def find_prime(num):
+	if num == 1:
+		return False
 	for i in range(2,100):
 		if num%i == 0 and num != i:
 			return False
