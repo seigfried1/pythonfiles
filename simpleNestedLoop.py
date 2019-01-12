@@ -5,7 +5,6 @@ for i, j in students:
 	marks_list.append(j)
 marks_list.sort(reverse=True)
 
-
 desired_num = 0
 lowest_num = marks_list[-1]
 for i in range(len(marks_list)-1,0,-1):
